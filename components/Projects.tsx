@@ -32,7 +32,7 @@ const projects = [
     tags: ['Logo', 'Shirts', 'Graphic Design', 'Illustrator', 'Photoshop'],
     thumbnail: '/thumbnails/project-04.jpg',
     gradient: 'linear-gradient(135deg, #ede9fe, #7c3aed)',
-    href: '#',
+    href: '/projects/apparel-logos',
   },
 ]
 

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function DiosysPage() {
+export default function ApparelLogosPage() {
   return (
     <main className="min-h-screen bg-white">
 
@@ -14,7 +14,7 @@ export default function DiosysPage() {
           >
             ← Back to projects
           </Link>
-          <a href="#" className="block w-10 h-10">
+          <a href="#hero" className="block w-10 h-10">
                 <Image
                 src="/logo.svg"
                 alt="Logo"
@@ -31,31 +31,31 @@ export default function DiosysPage() {
         {/* Header */}
         <div className="mb-16">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-5 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
-            UI/UX · Web · 2024
+            Graphic Design · Branding · Apparel
           </p>
           <h1
             className="leading-none text-[#0a0a0a] mb-6"
             style={{
               fontFamily: 'var(--font-title)',
-              fontSize: 'clamp(3rem, 8vw, 6rem)',
+              fontSize: 'clamp(2.5rem, 7vw, 5.5rem)',
             }}
           >
-            DIOSys
+            Apparel &<br />Logo Designs
           </h1>
           <p className="text-[1.05rem] font-light leading-relaxed text-[#444] max-w-2xl">
-            A data management system for the Diocese of Butuan that streamlines operations,
-            enhances communication, and provides a centralized platform for managing parish
-            information, events, and resources across the entire diocese.
+            A collection of logo and apparel designs created for various clients — blending
+            visual identity, brand personality, and wearable aesthetics into cohesive, 
+            purposeful designs.
           </p>
         </div>
 
         {/* Meta info */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#e0e0e0] mb-20">
           {[
-            { label: 'Role', value: 'UI/UX Designer' },
-            { label: 'Platform', value: 'Web' },
-            { label: 'Tools', value: 'Figma' },
-            { label: 'Type', value: 'Management System' },
+            { label: 'Role', value: 'Graphic Designer' },
+            { label: 'Deliverables', value: 'Logos & Apparel' },
+            { label: 'Tools', value: 'Illustrator · Photoshop' },
+            { label: 'Clients', value: 'Various' },
           ].map(({ label, value }) => (
             <div key={label} className="bg-white px-6 py-5">
               <p className="text-[0.65rem] tracking-[0.15em] uppercase text-[#7742b8] mb-1 font-semibold">{label}</p>
@@ -64,7 +64,7 @@ export default function DiosysPage() {
           ))}
         </div>
 
-        {/* Overview + Role */}
+        {/* Overview + Approach */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
           <div>
             <h2
@@ -74,10 +74,10 @@ export default function DiosysPage() {
               Overview
             </h2>
             <p className="text-[0.95rem] font-light leading-relaxed text-[#555]">
-              DIOSys — short for Diocesan Integrated Operations System — was built to digitize and
-              centralize the administrative workflows of the Diocese of Butuan. The system manages
-              parish registers (baptism, matrimony, confirmation, memorial), accounting, employees,
-              ministries, and more — all from a single platform.
+              These designs span different industries and purposes — from a vibrant food truck
+              logo for a local taco business, to professional uniform designs for government
+              and organizational clients. Each piece required a deep understanding of the
+              client's brand, audience, and context.
             </p>
           </div>
           <div>
@@ -85,98 +85,91 @@ export default function DiosysPage() {
               className="text-[#0a0a0a] mb-4"
               style={{ fontFamily: 'var(--font-display)', fontSize: '2rem' }}
             >
-              My Role
+              Approach
             </h2>
             <p className="text-[0.95rem] font-light leading-relaxed text-[#555]">
-              I handled the complete UI/UX design — from information architecture and user flows
-              to high-fidelity web screens. I designed a comprehensive design system covering
-              navigation, data tables, forms, dashboards, and charts while keeping the interface
-              clean and accessible for non-technical users.
+              Every design starts with understanding the brand's personality and purpose. For
+              apparel, I balance aesthetics with practicality — ensuring the design works
+              well on fabric, is readable at distance, and carries the right identity.
+              For logos, I focus on distinctiveness, scalability, and meaning.
             </p>
           </div>
         </div>
 
+        {/* Divider label — Logos */}
+        <div className="flex items-center gap-4 mb-8">
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+          <span className="text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] font-semibold">Logo Design</span>
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+        </div>
 
-        {/* d1 — Dashboard */}
-        <div className="mb-8">
+        {/* l1 — Fonzo's Taco Logo */}
+        <div className="mb-16">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/diosys/d1.png"
-              alt="DIOSys — Dashboard"
+              src="/images/projects/apparel-logos/l1.png"
+              alt="Fonzo's Taco — Logo Design"
               className="w-full h-auto"
             />
           </div>
-        </div>
-
-        {/* d2 — Profile & Form */}
-        <div className="mb-8">
-          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
-            <img
-              src="/images/projects/diosys/d2.png"
-              alt="DIOSys — Profile Management"
-              className="w-full h-auto"
-            />
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Fonzo's Taco — Food Truck Logo</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              A bold, illustrative logo for a local taco food truck — featuring a vibrant cartoon
+              food truck character with the brand name integrated into the design. Built to be
+              eye-catching, fun, and instantly recognizable on signage and packaging.
+            </p>
           </div>
         </div>
 
-        {/* d3 — Parish Registers */}
-        <div className="mb-8">
+        {/* Divider label — Apparel */}
+        <div className="flex items-center gap-4 mb-8">
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+          <span className="text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] font-semibold">Apparel Design</span>
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+        </div>
+
+        {/* s1 — NSED 2026 Shirt */}
+        <div className="mb-10">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/diosys/d3.png"
-              alt="DIOSys — Parish Registers"
+              src="/images/projects/apparel-logos/s1.png"
+              alt="NSED 2026 — Chinese Collar Shirt Design"
               className="w-full h-auto"
             />
           </div>
-        </div>
-
-        {/* d4 — Accounting */}
-        <div className="mb-8">
-          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
-            <img
-              src="/images/projects/diosys/d4.png"
-              alt="DIOSys — Accounting Module"
-              className="w-full h-auto"
-            />
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">NSED 2026 — Chinese-Collar Shirt</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              Uniform design for the Nationwide Simultaneous Earthquake Drill 2026 — a dynamic
+              navy and orange colorway with a bold diagonal layout. Designed for Drill Evaluators
+              with front branding and back role identification.
+            </p>
           </div>
         </div>
 
-        {/* d5 — Employees */}
-        <div className="mb-8">
-          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
-            <img
-              src="/images/projects/diosys/d5.png"
-              alt="DIOSys — Employees Module"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-
-        {/* d6 — Ministries */}
+        {/* s2 — Intern Polo Shirt */}
         <div className="mb-20">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/diosys/d6.png"
-              alt="DIOSys — Ministries Module"
+              src="/images/projects/apparel-logos/s2.png"
+              alt="Intern — Polo Shirt Design"
               className="w-full h-auto"
             />
           </div>
-        </div>
-
-        {/* d7 — Hero/Branding shot (shown first as intro) */}
-        <div className="mb-8">
-          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
-            <img
-              src="/images/projects/diosys/d7.png"
-              alt="DIOSys — Brand and Login Screen"
-              className="w-full h-auto"
-            />
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">OCD-FSUU Intern — Polo Shirt</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              Polo shirt design for OCD-FSUU interns — featuring a clean white and purple diagonal
+              split with navy accents. The front carries organizational logos while the back
+              displays the agency name and role for a professional, polished look.
+            </p>
           </div>
         </div>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-20">
-          {['UI/UX', 'Figma', 'Web', 'Management System', 'Design System', 'Dashboard', 'Data Tables'].map(tag => (
+          {['Logo Design', 'Apparel', 'Graphic Design', 'Illustrator', 'Photoshop', 'Branding', 'Uniform'].map(tag => (
             <span
               key={tag}
               className="text-[0.65rem] font-medium tracking-[0.12em] uppercase px-3 py-1.5 rounded-full border border-[#ede9fe] bg-[#f5f3ff] text-[#7742b8]"
