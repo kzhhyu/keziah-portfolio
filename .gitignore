@@ -1,0 +1,28 @@
+@"
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Production files
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
