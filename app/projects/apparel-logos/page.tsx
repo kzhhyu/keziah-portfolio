@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import RevealInit from '@/components/RevealInit'
 
 export default function ApparelLogosPage() {
   return (
     <main className="min-h-screen bg-white">
 
       {/* Back nav */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
+      <div className="reveal fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
         <div className="max-w-5xl mx-auto px-8 py-5 flex items-center justify-between">
           <Link
             href="/#projects"
@@ -26,10 +27,10 @@ export default function ApparelLogosPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-8 pt-32 pb-24">
+      <div className="reveal max-w-5xl mx-auto px-8 pt-32 pb-24">
 
         {/* Header */}
-        <div className="mb-16">
+        <div className="reveal mb-16">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-5 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
             Graphic Design · Branding · Apparel
           </p>
@@ -196,6 +197,7 @@ export default function ApparelLogosPage() {
         </div>
 
       </div>
+      <RevealInit />
     </main>
   )
 }

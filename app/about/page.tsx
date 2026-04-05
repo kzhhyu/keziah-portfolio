@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from "next/image";
+import RevealInit from '@/components/RevealInit'
 
 const skills = [
   { category: 'Design', items: ['UI/UX Design', 'Visual Design', 'Brand Identity', 'Design Systems', 'Wireframing & Prototyping'] },
@@ -34,7 +35,7 @@ export default function AboutPage() {
     <main className="min-h-screen bg-white">
 
       {/* Nav */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
+      <div className=" reveal fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
         <div className="max-w-5xl mx-auto px-8 py-5 flex items-center justify-between">
           <Link
             href="/"
@@ -57,7 +58,7 @@ export default function AboutPage() {
       <div className="max-w-5xl mx-auto px-8 pt-32 pb-24">
 
         {/* Hero — Photo + Intro */}
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-16 items-start mb-24">
+        <div className="reveal grid grid-cols-1 md:grid-cols-[1fr_auto] gap-16 items-start mb-24">
           <div>
             <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-5 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
               About me
@@ -306,6 +307,7 @@ export default function AboutPage() {
         </div>
 
       </div>
+      <RevealInit />
     </main>
   )
 }
