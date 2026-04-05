@@ -28,7 +28,7 @@ const projects = [
   },
   {
     name: 'Apparel and Logo Designs',
-    desc: 'Created apparel and logo designs for various clients, including a local coffee shop and a university organization — blending modern aesthetics with brand identity.',
+    desc: 'Created apparel and logo designs for various clients, including a taco truck business and a university organization — blending modern aesthetics with brand identity.',
     tags: ['Logo', 'Shirts', 'Graphic Design', 'Illustrator', 'Photoshop'],
     thumbnail: '/thumbnails/project-04.jpg',
     gradient: 'linear-gradient(135deg, #ede9fe, #7c3aed)',

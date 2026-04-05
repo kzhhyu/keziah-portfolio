@@ -2,16 +2,20 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const links = [
   { label: "Home", href: "#" },
-  { label: "Projects", href: "#projects" },
-  { label: "Tools", href: "#tools" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Tools", href: "/#tools" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
