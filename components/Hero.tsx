@@ -39,6 +39,23 @@ export default function Hero() {
             graphic design, and layout artistry. I enjoy turning ideas into visually engaging and user-friendly
             designs that not only look good but feel intuitive to use.
           </p>
+
+          <div className="anim-fade-up-4 flex flex-wrap gap-3 mt-8 font-semibold">
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 bg-[#7742b8] text-white no-underline hover:bg-[#5c23ac] transition-all duration-200"
+            >
+              Download Resume
+            </a>
+            <a
+              href="/about"
+              className="text-[0.75rem] tracking-[0.1em] uppercase px-6 py-3 border border-[#cccccc] text-[#666] no-underline hover:border-[#7742b8] hover:text-[#7742b8] transition-all duration-200"
+            >
+              About me
+            </a>
+          </div>
         </div>
 
         {/* Right — photo */}

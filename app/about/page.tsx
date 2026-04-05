@@ -35,7 +35,7 @@ export default function AboutPage() {
     <main className="min-h-screen bg-white">
 
       {/* Nav */}
-      <div className=" reveal fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
         <div className="max-w-5xl mx-auto px-8 py-5 flex items-center justify-between">
           <Link
             href="/"
@@ -85,7 +85,15 @@ export default function AboutPage() {
             </p>
 
             {/* Social links */}
-            <div className="flex flex-wrap gap-3 mt-10">
+            <div className="flex flex-wrap gap-3 mt-10 font-semibold">
+              <a
+                href="/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 bg-[#7742b8] text-white no-underline hover:bg-[#5c23ac] transition-all duration-200"
+              >
+                Download Resume
+              </a>
               <a
                 href="mailto:keziahlonoy27@gmail.com"
                 className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 border border-[#e0e0e0] text-[#666] no-underline hover:border-[#7742b8] hover:text-[#7742b8] transition-all duration-200"

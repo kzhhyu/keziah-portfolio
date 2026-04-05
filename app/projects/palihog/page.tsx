@@ -7,7 +7,7 @@ export default function PalihogPage() {
     <main className="min-h-screen bg-white">
 
       {/* Back nav */}
-      <div className="reveal fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e0e0e0]">
         <div className="max-w-5xl mx-auto px-8 py-5 flex items-center justify-between">
           <Link
             href="/#projects"
