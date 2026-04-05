@@ -47,7 +47,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 bg-[#7742b8] text-white no-underline hover:bg-[#5c23ac] transition-all duration-200"
             >
-              Download Resume
+              Resume
             </a>
             <a
               href="/about"
