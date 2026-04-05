@@ -26,7 +26,7 @@ export default function Hero() {
             className="anim-fade-up-2 leading-[0.9] tracking-[0.02em] text-[#0a0a0a]"
             style={{
               fontFamily: "var(--font-title)",
-              fontSize: "clamp(3.5rem, 13vw, 8rem)",
+              fontSize: "clamp(3.5rem, 13vw, 7rem)",
             }}
           >
             Hi !

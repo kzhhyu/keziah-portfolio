@@ -63,14 +63,13 @@ export default function AboutPage() {
               About me
             </p>
             <h1
-              className="leading-none text-[#0a0a0a] mb-8"
+              className="leading-none text-[#0a0a0a] mb-5"
               style={{
                 fontFamily: 'var(--font-title)',
                 fontSize: 'clamp(3rem, 8vw, 4rem)',
               }}
             >
-              Keziah Rane Mari<br />
-              <span className="text-[#7742b8]">Lonoy</span>
+              Keziah Rane Mari <span className="text-[#7742b8]">Lonoy</span>
             </h1>
             <p className="text-[1rem] font-light leading-relaxed text-[#444] mb-6">
               I&apos;m a 4th-year Information Technology student at Father Saturnino Urios University
