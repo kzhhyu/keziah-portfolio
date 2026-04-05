@@ -112,7 +112,7 @@ export default function AboutPage() {
           </div>
 
           {/* Photo */}
-          <div className="flex-shrink-0">
+          <div className="reveal flex-shrink-0">
             <div className="relative w-64 overflow-hidden border border-[#e0e0e0]">
               <img
                 src="/images/profile.jpg"
@@ -125,7 +125,7 @@ export default function AboutPage() {
         </div>
 
         {/* Education + Experience */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#e0e0e0] mb-24">
+        <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-px bg-[#e0e0e0] mb-24">
 
           {/* Education */}
           <div className="bg-white p-10">
@@ -161,7 +161,7 @@ export default function AboutPage() {
           </div>
 
           {/* Experience */}
-          <div className="bg-[#f7f6f3] p-10">
+          <div className="reveal bg-[#f7f6f3] p-10">
             <p className="text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-6 font-semibold">Experience</p>
             <h2
               className="text-[#0a0a0a] mb-6"
@@ -230,7 +230,7 @@ export default function AboutPage() {
         </div>
 
         {/* Skills */}
-        <div className="mb-24">
+        <div className="reveal mb-24">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-4 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
             Skills
           </p>
@@ -258,7 +258,7 @@ export default function AboutPage() {
         </div>
 
         {/* Certifications */}
-        <div className="mb-24">
+        <div className="reveal mb-24">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-4 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
             Certifications
           </p>
@@ -288,7 +288,7 @@ export default function AboutPage() {
         </div>
 
         {/* CTA */}
-        <div className="border-t border-[#e0e0e0] pt-16 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+        <div className="reveal border-t border-[#e0e0e0] pt-16 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
           <div>
             <h2
               className="text-[#0a0a0a] mb-2"
