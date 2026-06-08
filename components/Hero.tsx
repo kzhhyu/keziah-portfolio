@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Main layout: name left, image right */}
-      <div className="relative z-10 flex items-end justify-between gap-10">
+      <div className="relative z-10 flex flex-col md:flex-row items-center md:items-end justify-between gap-10">
 
         {/* Left — text content */}
         <div className="flex flex-col">
