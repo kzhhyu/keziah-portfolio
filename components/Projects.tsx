@@ -72,7 +72,7 @@ export default function Projects() {
             Projects
           </h2>
           <p className="text-[0.95rem] font-light leading-relaxed text-[#666] max-w-lg">
-            A selection of work that reflects how I think, what I care about, and the problems I love solving.
+            Selected works that reflect my design thinking, values, and attention to detail.
           </p>
         </div>
 

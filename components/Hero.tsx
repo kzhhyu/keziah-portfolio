@@ -35,7 +35,7 @@ export default function Hero() {
           </h1>
 
           <p className="anim-fade-up-3 mt-8 text-[1rem] font-light text-[#292929] max-w-screen-sm leading-relaxed">
-            An undergraduate Information Technology student with a creative edge, focusing on UI/UX design,
+            A recent Information Technology graduate with a creative edge and a passion for UI/UX design,
             graphic design, and layout artistry. I enjoy turning ideas into visually engaging and user-friendly
             designs that not only look good but feel intuitive to use.
           </p>

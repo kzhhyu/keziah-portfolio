@@ -11,21 +11,27 @@ const skills = [
 
 const certifications = [
   {
+    title: 'Civil Service Eligible - Passer',
+    issuer: 'Civil Service Commission Philippines',
+    period: 'March 2026',
+    code: 'CSE',
+  },
+  {
     title: 'Microsoft Office Specialist: Excel Associate',
     issuer: 'Microsoft',
-    period: 'Nov 2025 – Nov 2030',
+    period: 'November 2025 – November 2030',
     code: 'MOS',
   },
   {
     title: 'Microsoft Office Specialist: Access Expert',
     issuer: 'Microsoft',
-    period: 'Nov 2025 – Nov 2030',
+    period: 'November 2025 – November 2030',
     code: 'MOS',
   },
   {
     title: 'Certified Information Security and Data Privacy Practitioner',
     issuer: 'CISDP',
-    period: '2024',
+    period: 'December 2024',
     code: 'CISDP',
   },
 ]
@@ -73,15 +79,16 @@ export default function AboutPage() {
               Keziah Rane Mari <span className="text-[#7742b8]">Lonoy</span>
             </h1>
             <p className="text-[1rem] font-light leading-relaxed text-[#444] mb-6">
-              I&apos;m a 4th-year Information Technology student at Father Saturnino Urios University
-              with a passion for design that&apos;s as intentional as it is expressive. I thrive in
-              collaborative environments — the kind where good ideas are built together, often
+              A recent graduate from Father Saturnino Urios University with a Bachelor&apos;s degree in Information Technology.
+              I thrive in collaborative environments — the kind where good ideas are built together, often
               over a cup of coffee.
             </p>
             <p className="text-[1rem] font-light leading-relaxed text-[#444]">
-              Detail-oriented by nature, I care deeply about the craft behind every layout, design,
-              and interaction. Whether I&apos;m designing a system interface or a shirt for a client,
-              I bring the same level of care and curiosity — with a little personality sprinkled in.
+              I have hands-on experience in technical and administrative support, UI/UX design, Figma prototyping,
+              and creative media projects. Known for being dependable, proactive, and detail-oriented, I consistently
+              take initiative in completing tasks, improving workflows, and supporting colleagues. My ability to
+              adapt, communicate effectively, and work collaboratively allows me to contribute positively to any
+              team while maintaining a strong commitment to quality and continuous learning.
             </p>
 
             {/* Social links */}
@@ -107,14 +114,6 @@ export default function AboutPage() {
                 className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 border border-[#e0e0e0] text-[#666] no-underline hover:border-[#7742b8] hover:text-[#7742b8] transition-all duration-200"
               >
                 LinkedIn
-              </a>
-              <a
-                href="https://ph.jobstreet.com/profiles/keziah-lonoy-vcpKzq1Xz1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-[0.75rem] tracking-[0.1em] uppercase px-5 py-2.5 border border-[#e0e0e0] text-[#666] no-underline hover:border-[#7742b8] hover:text-[#7742b8] transition-all duration-200"
-              >
-                JobStreet
               </a>
             </div>
           </div>
