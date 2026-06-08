@@ -80,8 +80,6 @@ export default function AboutPage() {
             </h1>
             <p className="text-[1rem] font-light leading-relaxed text-[#444] mb-6">
               A recent graduate from Father Saturnino Urios University with a Bachelor&apos;s degree in Information Technology.
-              I thrive in collaborative environments — the kind where good ideas are built together, often
-              over a cup of coffee.
             </p>
             <p className="text-[1rem] font-light leading-relaxed text-[#444]">
               I have hands-on experience in technical and administrative support, UI/UX design, Figma prototyping,
