@@ -86,8 +86,11 @@ export default function AboutPage() {
             <p className="text-[1rem] font-light leading-relaxed text-[#444]">
               I have hands-on experience in technical and administrative support, UI/UX design, Figma prototyping,
               and creative media projects. Known for being dependable, proactive, and detail-oriented, I consistently
-              take initiative in completing tasks, improving workflows, and supporting colleagues. My ability to
-              adapt, communicate effectively, and work collaboratively allows me to contribute positively to any
+              take initiative in completing tasks, improving workflows, and supporting colleagues.
+            </p>
+
+            <p className="text-[1rem] font-light leading-relaxed text-[#444] mt-4">
+              My ability to adapt, communicate effectively, and work collaboratively allows me to contribute positively to any
               team while maintaining a strong commitment to quality and continuous learning.
             </p>
 
