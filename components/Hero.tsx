@@ -64,7 +64,7 @@ export default function Hero() {
             <img
               src="/images/hero-photo.png"
               alt="Keziah Lonoy"
-              className="max-h-[55vh] w-auto object-contain"
+              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-none md:max-h-[55vh] h-auto object-contain mx-auto"
             />
             {/* Fallback placeholder shown when no image */}
             <div className="absolute inset-0 flex items-center justify-center -z-10">
