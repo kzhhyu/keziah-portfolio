@@ -1,7 +1,6 @@
 const links = [
   { label: "Send an email", href: "mailto:keziahlonoy27@gmail.com", primary: true },
   { label: "LinkedIn", href: "https://linkedin.com/in/keziah-lonoy", primary: false },
-  { label: "Jobstreet", href: "https://ph.jobstreet.com/profiles/keziah-lonoy-vcpKzq1Xz1", primary: false },
 ];
 
 export default function Contact() {

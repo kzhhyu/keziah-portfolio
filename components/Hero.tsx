@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center px-16 pb-20 pt-24 overflow-hidden bg-white"
+      className="relative min-h-screen flex flex-col justify-center px-4 sm:px-8 md:px-16 pb-20 pt-24 overflow-hidden bg-white"
     >
       {/* Subtle purple glow top-right */}
       <div
@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col md:flex-row items-center md:items-end justify-between gap-10">
 
         {/* Left — text content */}
-        <div className="flex flex-col">
+        <div className="flex flex-col text-center md:text-left items-center md:items-start">
           <p className="anim-fade-up-1 text-[0.75rem] tracking-[0.2em] uppercase text-[#7742b8] font-semibold mb-4">
             Portfolio — 2026
           </p>
