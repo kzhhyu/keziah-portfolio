@@ -71,7 +71,7 @@ export default function Projects() {
           >
             Projects
           </h2>
-          <p className="text-[0.95rem] font-light leading-relaxed text-[#666] max-w-lg">
+          <p className="text-[0.95rem] font-light leading-relaxed text-[#666] max-w-xl">
             Selected works that reflect my design thinking, values, and attention to detail.
           </p>
         </div>
