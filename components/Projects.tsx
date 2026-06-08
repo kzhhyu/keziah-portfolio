@@ -58,7 +58,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
-        <div ref={headRef} className="reveal mb-14">
+        <div ref={headRef} className="reveal mb-8">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-4 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
             Selected work
           </p>
