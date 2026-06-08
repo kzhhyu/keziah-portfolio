@@ -78,7 +78,7 @@ export default function AboutPage() {
             >
               Keziah Rane Mari <span className="text-[#7742b8]">Lonoy</span>
             </h1>
-            <p className="text-[1rem] font-light leading-relaxed text-[#444] mb-6">
+            <p className="text-[1rem] font-light leading-relaxed text-[#444] mb-4">
               A recent graduate from Father Saturnino Urios University with a Bachelor&apos;s degree in Information Technology.
             </p>
             <p className="text-[1rem] font-light leading-relaxed text-[#444]">
