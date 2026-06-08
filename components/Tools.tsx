@@ -61,7 +61,7 @@ export default function Tools() {
         >
           Tools I <span className="text-[#7742b8]">use</span>
         </h2>
-        <p className="reveal text-[0.95rem] font-light leading-relaxed text-[#666] max-w-lg mb-14">
+        <p className="reveal text-[0.95rem] font-light leading-relaxed text-[#666] max-w-lg mb-8">
           Software and applications I rely on to design, edit, and build.
         </p>
 
