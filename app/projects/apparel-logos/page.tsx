@@ -16,14 +16,14 @@ export default function ApparelLogosPage() {
             ← Back to projects
           </Link>
           <a href="#hero" className="block w-10 h-10">
-                <Image
-                src="/logo.svg"
-                alt="Logo"
-                width={40}
-                height={40}
-                className="object-contain"
-                />
-            </a>
+            <Image
+              src="/logo.svg"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+          </a>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ export default function ApparelLogosPage() {
         {/* Header */}
         <div className="reveal mb-16">
           <p className="flex items-center gap-4 text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] mb-5 before:content-[''] before:w-8 before:h-px before:bg-[#7742b8] font-semibold">
-            Graphic Design · Branding · Apparel
+            Graphic Design · Branding · Apparel · Events
           </p>
           <h1
             className="leading-none text-[#0a0a0a] mb-6"
@@ -44,7 +44,7 @@ export default function ApparelLogosPage() {
             Apparel &<br />Logo Designs
           </h1>
           <p className="text-[1.05rem] font-light leading-relaxed text-[#444] max-w-2xl">
-            A collection of logo and apparel designs created for various clients — blending
+            A collection of logo, apparel, and event designs created for various clients — blending
             visual identity, brand personality, and wearable aesthetics into cohesive, 
             purposeful designs.
           </p>
@@ -54,7 +54,7 @@ export default function ApparelLogosPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#e0e0e0] mb-20">
           {[
             { label: 'Role', value: 'Graphic Designer' },
-            { label: 'Deliverables', value: 'Logos & Apparel' },
+            { label: 'Deliverables', value: 'Logos, Apparel & Events' },
             { label: 'Tools', value: 'Illustrator · Photoshop' },
             { label: 'Clients', value: 'Various' },
           ].map(({ label, value }) => (
@@ -150,7 +150,7 @@ export default function ApparelLogosPage() {
         </div>
 
         {/* s2 — Intern Polo Shirt */}
-        <div className="mb-20">
+        <div className="mb-10">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
               src="/images/projects/apparel-logos/s2.png"
@@ -168,9 +168,52 @@ export default function ApparelLogosPage() {
           </div>
         </div>
 
+        {/* s3 — New Apparel Design */}
+        <div className="mb-20">
+          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
+            <img
+              src="/images/projects/apparel-logos/s3.png"
+              alt="Custom Apparel Design"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Custom Apparel Design</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              [Add your description here — describe what this apparel design is for, the client, 
+              the design concept, and any key details about the piece.]
+            </p>
+          </div>
+        </div>
+
+        {/* Divider label — Events */}
+        <div className="flex items-center gap-4 mb-8">
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+          <span className="text-[0.7rem] tracking-[0.2em] uppercase text-[#7742b8] font-semibold">Event Design</span>
+          <div className="flex-1 h-px bg-[#e0e0e0]" />
+        </div>
+
+        {/* e1 — New Event Design */}
+        <div className="mb-20">
+          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
+            <img
+              src="/images/projects/apparel-logos/e1.png"
+              alt="Event Branding Design"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Event Branding Design</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              [Add your description here — describe what this event design is for, the theme,
+              the visual elements used, and the overall concept.]
+            </p>
+          </div>
+        </div>
+
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-20">
-          {['Logo Design', 'Apparel', 'Graphic Design', 'Illustrator', 'Photoshop', 'Branding', 'Uniform'].map(tag => (
+          {['Logo Design', 'Apparel', 'Events', 'Graphic Design', 'Illustrator', 'Photoshop', 'Branding', 'Uniform'].map(tag => (
             <span
               key={tag}
               className="text-[0.65rem] font-medium tracking-[0.12em] uppercase px-3 py-1.5 rounded-full border border-[#ede9fe] bg-[#f5f3ff] text-[#7742b8]"
