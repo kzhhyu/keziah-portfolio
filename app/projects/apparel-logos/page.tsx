@@ -131,7 +131,7 @@ export default function ApparelLogosPage() {
         </div>
 
         {/* s1 — 457 Tailoring */}
-        <div className="mb-20">
+        <div className="mb-10">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
               src="/images/projects/apparel-logos/s1.png"
@@ -160,7 +160,7 @@ export default function ApparelLogosPage() {
             />
           </div>
           <div className="mt-4">
-            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">NSED 2026 — Chinese-Collar Shirt</p>
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">OCD NSED 2026 — Chinese-Collar Shirt</p>
             <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
               Uniform design for the Nationwide Simultaneous Earthquake Drill 2026 — a dynamic
               navy and orange colorway with a bold diagonal layout. Designed for Drill Evaluators
