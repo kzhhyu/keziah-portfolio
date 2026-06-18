@@ -130,17 +130,17 @@ export default function ApparelLogosPage() {
           <div className="flex-1 h-px bg-[#e0e0e0]" />
         </div>
 
-                {/* s1 — 457 Tailoring */}
+        {/* s1 — 457 Tailoring */}
         <div className="mb-20">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/apparel-logos/s3.png"
-              alt="457 Tailoring Design Visualizaiton"
+              src="/images/projects/apparel-logos/s1.png"
+              alt="457 Tailoring Design Visualization"
               className="w-full h-auto"
             />
           </div>
           <div className="mt-4">
-            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Custom Apparel Design</p>
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">457 Tailoring Shirt Design Visualization</p>
             <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
               An apparel design visualized and integrated onto a shirt mockup for accurate 
               representation of the final product. This visualization helps bridge the gap between 
