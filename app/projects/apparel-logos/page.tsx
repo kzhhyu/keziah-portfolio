@@ -200,22 +200,25 @@ export default function ApparelLogosPage() {
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
               src="/images/projects/apparel-logos/e1.png"
-              alt="Event Branding Design"
+              alt="Event Design Collection — Invitations, Photobooth & Souvenirs"
               className="w-full h-auto"
             />
           </div>
           <div className="mt-4">
             <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Event Branding Design</p>
             <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
-              [Add your description here — describe what this event design is for, the theme,
-              the visual elements used, and the overall concept.]
+              A comprehensive event design package featuring birthday poster invitations, 
+              photobooth layout designs, and souvenir designs for various celebrations. 
+              Each element is crafted to create a cohesive visual experience that captures 
+              the theme and personality of the event while providing functional and 
+              memorable keepsakes for guests.
             </p>
           </div>
         </div>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-20">
-          {['Logo Design', 'Apparel', 'Events', 'Graphic Design', 'Illustrator', 'Photoshop', 'Branding', 'Uniform'].map(tag => (
+          {['Logo Design', 'Apparel', 'Events', 'Invitations', 'Photobooth', 'Souvenirs', 'Graphic Design', 'Illustrator', 'Photoshop', 'Branding', 'Uniform'].map(tag => (
             <span
               key={tag}
               className="text-[0.65rem] font-medium tracking-[0.12em] uppercase px-3 py-1.5 rounded-full border border-[#ede9fe] bg-[#f5f3ff] text-[#7742b8]"
@@ -224,6 +227,7 @@ export default function ApparelLogosPage() {
             </span>
           ))}
         </div>
+
 
         {/* Navigation footer */}
         <div className="border-t border-[#e0e0e0] pt-10 flex justify-between items-center">
