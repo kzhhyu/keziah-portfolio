@@ -130,11 +130,31 @@ export default function ApparelLogosPage() {
           <div className="flex-1 h-px bg-[#e0e0e0]" />
         </div>
 
-        {/* s1 — NSED 2026 Shirt */}
+                {/* s1 — 457 Tailoring */}
+        <div className="mb-20">
+          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
+            <img
+              src="/images/projects/apparel-logos/s3.png"
+              alt="457 Tailoring Design Visualizaiton"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="mt-4">
+            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Custom Apparel Design</p>
+            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
+              An apparel design visualized and integrated onto a shirt mockup for accurate 
+              representation of the final product. This visualization helps bridge the gap between 
+              the 2D logo concept and its real-world application on apparel, ensuring proper 
+              placement, sizing, and overall aesthetic appeal.
+            </p>
+          </div>
+        </div>
+
+        {/* s2 — NSED 2026 Shirt */}
         <div className="mb-10">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/apparel-logos/s1.png"
+              src="/images/projects/apparel-logos/s2.png"
               alt="NSED 2026 — Chinese Collar Shirt Design"
               className="w-full h-auto"
             />
@@ -149,11 +169,11 @@ export default function ApparelLogosPage() {
           </div>
         </div>
 
-        {/* s2 — Intern Polo Shirt */}
+        {/* s3 — Intern Polo Shirt */}
         <div className="mb-10">
           <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
             <img
-              src="/images/projects/apparel-logos/s2.png"
+              src="/images/projects/apparel-logos/s3.png"
               alt="Intern — Polo Shirt Design"
               className="w-full h-auto"
             />
@@ -164,24 +184,6 @@ export default function ApparelLogosPage() {
               Polo shirt design for OCD-FSUU interns — featuring a clean white and purple diagonal
               split with navy accents. The front carries organizational logos while the back
               displays the agency name and role for a professional, polished look.
-            </p>
-          </div>
-        </div>
-
-        {/* s3 — New Apparel Design */}
-        <div className="mb-20">
-          <div className="overflow-hidden rounded-2xl border border-[#e0e0e0]">
-            <img
-              src="/images/projects/apparel-logos/s3.png"
-              alt="Custom Apparel Design"
-              className="w-full h-auto"
-            />
-          </div>
-          <div className="mt-4">
-            <p className="text-[0.9rem] font-medium text-[#0a0a0a] mb-1">Custom Apparel Design</p>
-            <p className="text-[0.8rem] font-light text-[#666] leading-relaxed">
-              [Add your description here — describe what this apparel design is for, the client, 
-              the design concept, and any key details about the piece.]
             </p>
           </div>
         </div>
